@@ -9,8 +9,8 @@
 
   overflow: hidden;
   transition:
-    transform 300ms ease,
-    box-shadow 300ms ease;
+    transform $transition-duration ease,
+    box-shadow $transition-duration ease;
 
   &__image {
     width: 160px;
@@ -58,8 +58,8 @@
     color: $button-text-color;
 
     transition:
-      background-color 300ms ease,
-      color 300ms ease;
+      background-color $transition-duration ease,
+      color $transition-duration ease;
 
     &:hover {
       background-color: $button-text-color;
@@ -70,7 +70,7 @@
   &:hover {
     transform: scale(1.2);
     position: relative;
-    box-shadow: 0 10px 20px $nav-color;
+    box-shadow: 0 10px 20px $default-color;
   }
 
   &:hover .card__title {

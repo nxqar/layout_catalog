@@ -5,12 +5,11 @@
 
   &__star {
     background-image: url(../images/star.svg);
-    background-size: auto;
     background-repeat: no-repeat;
     background-position: center;
-    width: 16px;
-    height: 16px;
-    margin-right: 4px;
+    width: $stars-size;
+    height: $stars-size;
+    margin-right: $card-titles-margin;
     border-radius: 0.5px;
   }
 

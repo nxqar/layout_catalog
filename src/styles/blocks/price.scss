@@ -1,10 +1,10 @@
 .price {
   margin-top: 24px;
-  line-height: 18px;
+  line-height: $card-font-lines-height;
 
   &--title {
     color: $secondary-color;
-    font-size: 12px;
+    font-size: $card-titles-font-size;
     font-weight: 400;
   }
 

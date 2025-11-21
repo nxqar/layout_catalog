@@ -1,5 +1,4 @@
 .nav {
-  padding: 0;
   &__list {
     display: flex;
     align-items: center;
@@ -14,7 +13,7 @@
   }
 
   &__link {
-    color: $nav-color;
+    color: $default-color;
     text-decoration: none;
 
     display: flex;
@@ -23,8 +22,10 @@
 
     font-size: 12px;
     font-weight: 500;
-    height: 60px;
+    height: $navigation-height;
     position: relative;
+
+    transition: color $transition-duration ease;
 
     &:hover {
       color: $blue-color;
